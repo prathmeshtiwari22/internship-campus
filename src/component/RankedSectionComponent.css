@@ -1,0 +1,88 @@
+/* Main container */
+.ranked-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Text container */
+  .text-container {
+    max-width: 50%;
+    padding-right: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rank-info {
+    margin-bottom: 1.25rem;
+  }
+  
+  .rank-item {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 1.25rem;
+    color: #f4c300; /* Yellow color for the icons */
+    margin-right: 0.5rem;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background-color: #f4c300;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .cta-button:hover {
+    background-color: #e0b000;
+  }
+  
+  .image-container {
+    max-width: 40%;
+  }
+  
+  .students-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,72 @@
+.ranking-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.ranking-container h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.ranking-container p {
+    font-size: 1.2em;
+    color: #333333;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.ranking-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ranking-card {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.ranking-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #ffc107; /* Yellow color */
+    border-radius: 10px 0 0 10px;
+}
+
+.ranking-card h3 {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.ranking-card p {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.ranking-card p:last-child {
+    color: #888888;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.ranking-grid > div:nth-child(3n+1) .ranking-card::before,
+.ranking-grid > div:nth-child(3n+2) .ranking-card::before,
+.ranking-grid > div:nth-child(3n+3) .ranking-card::before {
+    background-color: #ffc107; /* Yellow color */
+}

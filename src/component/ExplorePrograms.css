@@ -1,0 +1,78 @@
+.explore-programs-container {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .explore-programs-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .explore-programs-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .explore-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    position: relative;
+  }
+  
+  .explore-card-line {
+    width: 60px;
+    height: 4px;
+    background-color: #ffb300;
+    margin: 0 auto 10px;
+  }
+  
+  .explore-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .explore-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .explore-card-button {
+    background-color: #ffb300;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-card-button:hover {
+    background-color: #e09c00;
+  }
+  
+  .explore-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .explore-programs-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .explore-card {
+      width: 100%;
+    }
+  }
+  

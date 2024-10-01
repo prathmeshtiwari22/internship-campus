@@ -1,0 +1,57 @@
+.company-scroll-container {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f9ba02; /* Yellow underline */
+  }
+  
+  .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .company-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    min-width: 100%; /* This ensures each grid occupies full width */
+  }
+  
+  .company-item {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Bottom border for separation */
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 1024px) {
+    .company-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .company-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .company-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

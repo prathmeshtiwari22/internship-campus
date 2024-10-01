@@ -1,0 +1,66 @@
+.student-experience {
+    text-align: center;
+    margin: 50px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 300px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .intake,
+  .role {
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .quote-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #f4c300; /* Matches the yellow color */
+  }
+  

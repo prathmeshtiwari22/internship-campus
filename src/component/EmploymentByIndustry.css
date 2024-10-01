@@ -1,0 +1,64 @@
+.employment-by-industry-container {
+    width: 100%;
+    padding: 20px 40px;
+    text-align: left;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.employment-by-industry-container h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.industry-chart {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.industry-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.industry-label {
+    width: 280px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.bar {
+    background-color: #FFC107;
+    height: 24px;
+    position: relative;
+    max-width: 70%;
+}
+
+.percentage {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.x-axis {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin-left: 290px;
+    font-size: 14px;
+    color: #999;
+}
+
+.x-axis span {
+    display: inline-block;
+    width: 28px;
+    text-align: center;
+}
